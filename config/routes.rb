@@ -332,6 +332,7 @@ Whitehall::Application.routes.draw do
           end
         end
         resources :case_studies, path: "case-studies", except: [:index]
+        resources :learning_groups, path: "learning-groups", only: [:new, :create]
         if Rails.env.test?
           resources :generic_editions, path: "generic-editions"
         end
