@@ -1,3 +1,3 @@
-class LearningGroup < ApplicationRecord
-
+class LearningGroup < Edition
+  
 end
