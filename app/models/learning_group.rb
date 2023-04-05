@@ -1,0 +1,3 @@
+class LearningGroup < ApplicationRecord
+
+end
