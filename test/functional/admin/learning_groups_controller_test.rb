@@ -6,4 +6,5 @@ class Admin::LearningGroupsControllerTest < ActionController::TestCase
   end
   should_be_an_admin_controller
   should_allow_creating_of :learning_group
+  should_allow_editing_of :learning_group
 end

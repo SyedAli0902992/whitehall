@@ -4,4 +4,5 @@ FactoryBot.define do
     summary { "learning-group-summary" }
     body { "learning-group-body" }
   end
+  factory :draft_learning_group, parent: :learning_group, traits: [:draft]
 end
