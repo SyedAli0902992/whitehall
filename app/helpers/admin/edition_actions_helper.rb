@@ -120,6 +120,7 @@ module Admin::EditionActionsHelper
         FatalityNotice,
         CaseStudy,
         StatisticalDataSet,
+        LearningGroup
       ]
       edition_types
         .select { |edition_type| can?(:create, edition_type) }
