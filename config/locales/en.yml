@@ -226,6 +226,9 @@ en:
       international_treaty:
         one: International treaty
         other: International treaties
+      learning_group:
+        one: Learning Group
+        other: Learning Groups
       manual:
         one: Manual
         other: Manuals
